@@ -37,4 +37,9 @@ $(document).ready(function () {
             prevEl: '.authors-swiper-button-prev',
         },
     });
+
+    $('.btnArticleResponse').click(function ()
+    {
+        $('.response-form').toggle();
+    });
 });

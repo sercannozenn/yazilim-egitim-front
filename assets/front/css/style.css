@@ -10,6 +10,9 @@ body{
 .font-montserrat{
     font-family: 'Montserrat', sans-serif;
 }
+.font-lato{
+    font-family: 'Lato', sans-serif;
+}
 
 .bg-orange{
     background-color: #ee8606;
@@ -122,6 +125,101 @@ body{
 .telegram p{
     letter-spacing: 0.05em;
 }
+
+.article-wrapper
+{
+    margin: 0 30px;
+    padding: 25px 0 15px 0 ;
+}
+.article-header{
+    color: #808183;
+    border-bottom: 1px solid #eceff2;
+    font-size: 12px;
+}
+.article-header span{
+    border: 1px solid #9ea1a2;
+    padding: 3px 5px;
+    margin: 0 5px;
+    border-radius: 7px;
+}
+.article-header-author a{
+    text-decoration: none;
+    color: inherit;
+}
+.article-header-author{
+    letter-spacing: 0.03em;
+}
+pre{
+    white-space: pre-line;
+    margin-bottom: unset;
+    word-break: break-word;
+}
+code {
+
+}
+.btn-response{
+    border: 1px solid #9ea1a2;
+    border-radius: 10px;
+    padding: 5px 15px;
+    color: inherit;
+    text-decoration: none;
+}
+.btn-response:hover{
+    background-color: #ee8606;
+    color: #fff;
+}
+.favorite-article{
+    text-decoration: none;
+    color: inherit;
+}
+.favorite-article:hover{
+    color: red;
+}
+.article-authors h4 a{
+    text-decoration: none;
+    color:inherit;
+    font-size: 25px;
+}
+.article-responses p{
+    font-size: 14px;
+}
+
+.article-responses h4 a{
+    text-decoration: none;
+    color:inherit;
+    font-size: 20px;
+}
+.article-responses p{
+    font-size: 13px;
+}
+
+.article-responses h3{
+    font-weight: 500;
+}
+.articles-response-comment-wrapper, .article-response-comment-in
+{
+    margin-left: 80px;
+}
+.articles-response-comment-wrapper{
+
+}
+.like-comment{
+    text-decoration: none;
+    color: inherit;
+}
+.like-comment:hover{
+    color: #ee8606;
+}
+.comment-title-date time{
+    color: inherit;
+    font-size: 13px;
+}
+.response-form input, .response-form textarea{
+    border: unset;
+    border-radius: unset;
+    border-bottom: 1px solid #9ea1a2;
+}
+
 @media screen and (max-width: 768px) {
 
 }

@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Yazılım Eğitim Blog</title>
+
+    <link rel="stylesheet" href="assets/front/css/bootstrap.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+          rel="stylesheet">
+    <link href="assets/front/material-icons/iconfont/material-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/front/swiper/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="assets/front/aos/aos.css">
+    <link rel="stylesheet" href="assets/front/css/highlighter-default.min.css">
+
+    <link rel="stylesheet" href="assets/front/css/style.css">
+
+</head>
+<body>
+
+<header class="bg-white shadow-sm">
+
+    <div class="container">
+        <div class="header-top d-flex justify-content-between align-items-center header-border header-h">
+            <div class="header-logo">
+                <img src="assets/front/image/logo.png" class="logo-h img-fluid">
+            </div>
+            <div class="header-text d-none d-md-block">
+                <p class="text-center text-secondary fst-italic">Lorem ipsum dolor sit amet, consectetur
+                    adipisicing.</p>
+            </div>
+            <div class="header-search align-items-center">
+                <span class="material-icons" id="searchIcon1">search</span>
+                <form action="" class="position-relative" style="display: none" id="searchForm">
+                    <input type="text" name="search_text" id="search_text" placeholder="Search">
+                    <span class="material-icons position-absolute" id="searchIcon2"
+                          style="right: 0; top: 0; bottom: 0;">search</span>
+                </form>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+</header>
+
+<div class="container">
+
+    <main class="mt-5">
+
+        <div class="row">
+
+            <div class="col-md-9">
+
+                <section class="row">
+                    <div class="col-12 bg-white rounded-1 shadow-sm">
+                        <div class="article-wrapper">
+                            <div class="article-header font-lato d-flex justify-content-between pb-4">
+                                <div class="article-header-date">
+                                    <time datetime="18-03-2023">18-03-2023</time>
+                                    <span>Css</span>
+                                    <span>Html</span>
+                                </div>
+                                <div class="article-header-author">
+                                    Yazar: <a href="#"><strong>Sercan Özen</strong></a>
+                                </div>
+
+                            </div>
+                            <div class="article-content mt-4">
+                                <h1 class="fw-bold mb-4">
+                                    Lorem ipsum dolor sit.
+                                </h1>
+                                <div class="text-secondary">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam culpa eius eos
+                                    eveniet, excepturi, fugiat impedit inventore ipsa, minima necessitatibus neque
+                                    nostrum praesentium quasi quod reprehenderit sit veritatis voluptas voluptatem!
+
+                                    <pre>
+                                        <code class="language-js">var sayi1 = 10;
+                                            // Bu bir yorum satırı
+
+                                            var sayi2 = 20;
+
+                                            var result = sayi1 + sayi2;
+                                        </code>
+                                    </pre>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <section class="col-12 mt-4">
+                        <div class="article-items d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <a href="javascript:void(0)" class="favorite-article me-1">
+                                    <span class="material-icons-outlined">favorite</span>
+                                </a>
+                                <span class="fw-light">100</span>
+                            </div>
+                            <a href="javascript:void(0)" class="btn-response btnArticleResponse">Cevap Ver</a>
+
+                        </div>
+
+                        <div class="article-authors mt-5">
+                            <div class="bg-white p-4 d-flex justify-content-between align-items-center shadow-sm">
+                                <img src="assets/front/image/profile1.png" alt="" width="75" height="75">
+                                <div class="px-5">
+                                    <h4><a href="">Sercan Özen</a></h4>
+                                    <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium
+                                        consequatur et fuga fugiat, inventore laboriosam, maxime natus praesentium quae
+                                        reiciendis ullam. A dolor expedita facere, pariatur quibusdam veritatis
+                                        vitae.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <section class="article-responses mt-4">
+                        <div class="response-form bg-white shadow-sm rounded-1 p-4" style="display: none">
+                            <form action="" method="POST">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h5>Cevabınız</h5>
+                                        <hr>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" placeholder="Adınız" name="fullname" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="email" class="form-control" placeholder="Email Adresi" name="email" required>
+                                    </div>
+                                    <div class="col-12 mt-3">
+                                        <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Mesajınız"></textarea>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <button class="btn-response align-items-center d-flex mt-3">
+                                            <span class="material-icons-outlined me-2">send</span>
+                                            Gönder
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="response-body p-4">
+                            <h3>Makaleye Verilen Cevaplar</h3>
+                            <hr class="mb-4">
+
+                            <div class="article-response-wrapper">
+
+                                <div class="article-response bg-white p-2 mt-3 d-flex justify-content-between align-items-center shadow-sm">
+                                    <img src="assets/front/image/profile1.png" alt="" width="75" height="75">
+                                    <div class="px-3">
+                                        <div class="comment-title-date d-flex justify-content-between">
+                                            <h4><a href="">Sercan Özen</a></h4>
+                                            <time datetime="18-03-2023">18-03-2023</time>
+                                        </div>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium
+                                            consequatur et fuga fugiat, inventore laboriosam, maxime natus praesentium quae
+                                            reiciendis ullam. A dolor expedita facere, pariatur quibusdam veritatis
+                                            vitae.</p>
+                                        <div class="text-end d-flex  align-items-center justify-content-between">
+                                            <div>
+                                                <a href="javascript:void(0)" class="btn-response btnArticleResponse">Cevap Ver</a>
+                                            </div>
+                                            <div class="d-flex  align-items-center">
+                                                <a href="javascript:void(0)" class="like-comment"><span class="material-icons">thumb_up</span></a>
+                                                <a href="javascript:void(0)" class="like-comment"><span class="material-icons-outlined">thumb_up_off_alt</span></a> 12
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="articles-response-comment-wrapper">
+                                    <div class="article-comment bg-white p-2 mt-3 d-flex justify-content-between align-items-center shadow-sm">
+                                        <img src="assets/front/image/profile1.png" alt="" width="75" height="75">
+                                        <div class="px-3">
+                                            <div class="comment-title-date d-flex justify-content-between">
+                                                <h4><a href="">Sercan Özen</a></h4>
+                                                <time datetime="18-03-2023">18-03-2023</time>
+                                            </div>
+                                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium
+                                                consequatur et fuga fugiat, inventore laboriosam, maxime natus praesentium quae
+                                                reiciendis ullam. A dolor expedita facere, pariatur quibusdam veritatis
+                                                vitae.</p>
+                                            <div class="text-end d-flex  align-items-center justify-content-end">
+                                                <a href="javascript:void(0)" class="like-comment"><span class="material-icons">thumb_up</span></a>
+                                                <a href="javascript:void(0)" class="like-comment"><span class="material-icons-outlined">thumb_up_off_alt</span></a> 12
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="article-comment-in bg-white p-2 mt-3 d-flex justify-content-between align-items-center shadow-sm">
+                                        <img src="assets/front/image/profile1.png" alt="" width="75" height="75">
+                                        <div class="px-3">
+                                            <div class="comment-title-date d-flex justify-content-between">
+                                                <h4><a href="">Sercan Özen</a></h4>
+                                                <time datetime="18-03-2023">18-03-2023</time>
+                                            </div>
+                                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium
+                                                consequatur et fuga fugiat, inventore laboriosam, maxime natus praesentium quae
+                                                reiciendis ullam. A dolor expedita facere, pariatur quibusdam veritatis
+                                                vitae.</p>
+                                            <div class="text-end d-flex  align-items-center justify-content-end">
+                                                <a href="javascript:void(0)" class="like-comment"><span class="material-icons">thumb_up</span></a>
+                                                <a href="javascript:void(0)" class="like-comment"><span class="material-icons-outlined">thumb_up_off_alt</span></a> 12
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="article-response-wrapper">
+                                <div class="article-response bg-white p-2 mt-3 d-flex justify-content-between align-items-center shadow-sm">
+                                    <img src="assets/front/image/profile1.png" alt="" width="75" height="75">
+                                    <div class="px-3">
+                                        <div class="comment-title-date d-flex justify-content-between">
+                                            <h4><a href="">Sercan Özen</a></h4>
+                                            <time datetime="18-03-2023">18-03-2023</time>
+                                        </div>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium
+                                            consequatur et fuga fugiat, inventore laboriosam, maxime natus praesentium quae
+                                            reiciendis ullam. A dolor expedita facere, pariatur quibusdam veritatis
+                                            vitae.</p>
+                                        <div class="text-end d-flex  align-items-center justify-content-end">
+                                            <a href="javascript:void(0)" class="like-comment"><span class="material-icons">thumb_up</span></a>
+                                            <a href="javascript:void(0)" class="like-comment"><span class="material-icons-outlined">thumb_up_off_alt</span></a> 12
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="article-response-wrapper">
+                                <div class="article-response bg-white p-2 mt-3 d-flex justify-content-between align-items-center shadow-sm">
+                                    <img src="assets/front/image/profile1.png" alt="" width="75" height="75">
+                                    <div class="px-3">
+                                        <div class="comment-title-date d-flex justify-content-between">
+                                            <h4><a href="">Sercan Özen</a></h4>
+                                            <time datetime="18-03-2023">18-03-2023</time>
+                                        </div>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium
+                                            consequatur et fuga fugiat, inventore laboriosam, maxime natus praesentium quae
+                                            reiciendis ullam. A dolor expedita facere, pariatur quibusdam veritatis
+                                            vitae.</p>
+                                        <div class="text-end d-flex  align-items-center justify-content-end">
+                                            <a href="javascript:void(0)" class="like-comment"><span class="material-icons">thumb_up</span></a>
+                                            <a href="javascript:void(0)" class="like-comment"><span class="material-icons-outlined">thumb_up_off_alt</span></a> 12
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                </section>
+
+            </div>
+
+            <div class="col-md-3">
+                <section class="categories bg-white shadow-sm">
+                    <h4 class="bg-light text-secondary p-3 border-bottom border-1 border-light m-0">Kategoriler</h4>
+                    <ul class="list-group m-0">
+                        <li class="px-3 py-3"><a href="">Html <span class="text-warning float-end me-3">&#x25CF;</span></a>
+                        </li>
+                        <li class="px-3 py-3"><a href="">Html <span class="text-primary float-end me-3">&#x25CF;</span></a>
+                        </li>
+                        <li class="px-3 py-3"><a href="">Html <span
+                                class="text-danger float-end me-3">&#x25CF;</span></a></li>
+                        <li class="px-3 py-3"><a href="">Html <span
+                                class="text-danger float-end me-3">&#x25CF;</span></a></li>
+                        <li class="px-3 py-3"><a href="">Html <span
+                                class="text-danger float-end me-3">&#x25CF;</span></a></li>
+                        <li class="px-3 py-3"><a href="">Html <span
+                                class="text-danger float-end me-3">&#x25CF;</span></a></li>
+                    </ul>
+                </section>
+
+                <section class="youtube-video mt-4">
+                    <h3 class="font-montserrat fw-semibold">Videolar</h3>
+                    <div class="swiper-youtube">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <iframe width="100%"
+                                        src="https://www.youtube.com/embed/pFTkk22CbAg"
+                                        title="ONUNCU YIL MARŞI" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        allowfullscreen></iframe>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <iframe width="100%" src="https://www.youtube.com/embed/pFTkk22CbAg"
+                                        title="ONUNCU YIL MARŞI" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="most-popular-swiper-navigation text-end">
+                        <span class="btn btn-secondary btn-sm material-icons youtube-swiper-button-prev">arrow_back</span>
+                        <span class="btn btn-secondary btn-sm material-icons youtube-swiper-button-next">arrow_forward</span>
+                    </div>
+
+                </section>
+
+                <section class="authors mt-4">
+                    <h3 class="font-montserrat fw-semibold">Yazarlarımız</h3>
+                    <div class="swiper-authors">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div style="
+                                    background-image: url('https://via.placeholder.com/200x200');
+                                    background-size: cover;
+                                    background-repeat: no-repeat;
+                                    background-position: center center;
+                                    height: 200px;
+                                    "></div>
+                                    <div>
+                                        Sercan Özen
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div style="
+                                    background-image: url('https://via.placeholder.com/200x200');
+                                    background-size: cover;
+                                    background-repeat: no-repeat;
+                                    background-position: center center;
+                                    height: 200px;
+                                    "></div>
+                                    <div>
+                                        Sercan Özen
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="most-popular-swiper-navigation text-end">
+                        <span class="btn btn-secondary btn-sm material-icons authors-swiper-button-prev">arrow_back</span>
+                        <span class="btn btn-secondary btn-sm material-icons authors-swiper-button-next">arrow_forward</span>
+                    </div>
+
+                </section>
+            </div>
+
+        </div>
+    </main>
+</div>
+
+<footer class="container-fluid mt-5 p-5 bg-white" style="border-top: 1px solid #eceff2;">
+    <div class="container text-center">
+        <p>
+            &copy; 2023 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, soluta?
+        </p>
+    </div>
+</footer>
+
+
+<!--<script src="assets/front/js/bootstrap.bundle.min.js"></script>-->
+<script src="assets/front/js/bootstrap.min.js"></script>
+<script src="assets/front/js/jquery.min.js"></script>
+<script src="assets/front/swiper/swiper-bundle.min.js"></script>
+<script src="assets/front/aos/aos.js"></script>
+
+
+<script src="assets/front/js/highlight.min.js"></script>
+<script src="assets/front/js/main.js"></script>
+
+<script>
+    AOS.init();
+    hljs.highlightAll();
+</script>
+
+</body>
+</html>
